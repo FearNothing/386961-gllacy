@@ -3,6 +3,7 @@ body {
 	font-size: 30px;
 	color: red;
 	font-weight: bold;
+	background: url("../img/fon.jpg");
 }
 
 .Caption h1 {
@@ -15,6 +16,11 @@ body {
 	line-height:
 	font-size: 28px;
 	color: green;
+}
+
+.information {
+	background: url("../img/map.jpg");
+}
 }
 
 
