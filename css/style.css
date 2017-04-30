@@ -1,27 +1,30 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
-	color: red;
+	color: rgb(255, 255, 255);
 	font-weight: bold;
 	background: url("../img/fon.jpg");
 }
 
 .Caption h1 {
-	font-size: 48px;
-	color: yellow;
+	font-size: 48px;	
 	font-weight: bold;
 }
 
 .features-item p {
 	line-height:
-	font-size: 28px;
-	color: green;
+	font-size: 28px;	
 }
 
 .information {
 	background: url("../img/map.jpg");
 }
+
+.short-description {
+	background: url("../img/SEO.jpg");
+	padding: 150px 573px;
 }
+
 
 
 
