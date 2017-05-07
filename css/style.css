@@ -67,6 +67,10 @@ body {
   background-size: 1145px auto;
 }
 
+.Selection-menu::before {
+  display: none;
+}
+
 .Selection-menu {
   display: flex;
   justify-content: flex-start;
@@ -74,6 +78,10 @@ body {
   min-height: 225px;
   margin-top: 10px;
   justify-content: space-between;  
+}
+
+.Selection-menu2::before {
+  display: none;
 }
 
 .Selection-menu2 {  
@@ -96,8 +104,11 @@ body {
   height: 307px;
 }
 
+.menu-short-description::before {
+  display: none;  
+}
 
-.wer {
+.menu-short-description {
   border: 3px solid yellow;
   margin-top: 42px;   
   display: flex;
@@ -118,6 +129,10 @@ body {
 .main-footer {
   height: 103px;
   border: 3px solid green;  
+}
+
+.main-footer-layout::before {
+  display: none;
 }
 
 .main-footer-layout {
