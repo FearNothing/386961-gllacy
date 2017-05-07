@@ -1,30 +1,149 @@
 body {
+	min-width: 1200px;
+  min-height: 2416px;
 	font-family: 'Roboto', sans-serif;
-	font-size: 30px;
-	color: rgb(255, 255, 255);
-	font-weight: bold;
-	background: url("../img/fon.jpg");
+	color: white;	
+  margin: 0;
+  padding: 0;    
 }
 
-.Caption h1 {
-	font-size: 48px;	
-	font-weight: bold;
+body {
+	background: #0a1e9c url("./img/gllacy-index-1200.jpg");
+  background-size: 1200px 2416px;
 }
 
-.features-item p {
-	line-height:
-	font-size: 28px;	
+.main-header {
+  /* Только для оформления сетки */
+  min-height: 83px;
 }
 
-.information {
-	background: url("../img/map.jpg");
+/*.logo {
+	width: 154px;
+	min-height: 70px;
+	border: 3px solid blue;
+}*/
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 0px;
+  border: 3px solid red;
+
+  /* Только для оформления сетки */
+  min-height: 83px;
+}
+
+.main-header-layout {
+  display: flex;
+  justify-content: flex-start;
+  border: 3px solid white;
+}
+
+.main-header-layout::before {
+  display: none;
+}
+
+.main-navigation {
+  width: 587px;
+  border: 3px solid green; 
+
+
+  /* Только для оформления сетки */
+  min-height: 83px;
+}
+
+.user-block {
+  border: 3px solid yellow;
+  width: 294px;
+  margin-left: auto;
+  /* Только для оформления сетки */
+  min-height: 83px;
+}
+
+.banner {
+	height: 524px;
+	border: 3px solid yellow;
+  background: url(..img/banner.jpg);
+  background-size: 1145px auto;
+}
+
+.Selection-menu {
+  display: flex;
+  justify-content: flex-start;
+  border: 3px solid white;
+  min-height: 225px;
+  margin-top: 10px;
+  justify-content: space-between;  
+}
+
+.Selection-menu2 {  
+  padding-top: 42px;
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid white;
+  height: 323px;   
+}
+
+.features-item {
+   border: 3px solid green;
+  width: 267px;
 }
 
 .short-description {
-	background: url("../img/SEO.jpg");
-	padding: 150px 573px;
+  border: 3px solid yellow;
+  margin-top: 40px;
+  width: auto;
+  height: 307px;
 }
 
 
+.wer {
+  border: 3px solid yellow;
+  margin-top: 42px;   
+  display: flex;
+  justify-content: space-between; 
+}
 
+.short-description1 {
+  border: 3px solid green;
+  height: 220px;
+  width: 560px;
+}
+
+.map {
+  height: 430px;
+  border: 3px solid yellow;
+}
+
+.main-footer {
+  height: 103px;
+  border: 3px solid green;  
+}
+
+.main-footer-layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-footer-layout::before {
+  display: none;
+}
+
+.footer-social {
+  border: 3px solid white;
+  height: 103px;
+  width: 294px;
+}
+
+.footer-information {
+  border: 3px solid white;
+  height: 103px;
+  width: 560px;
+}
+
+.footer-copyright {
+  border: 3px solid white;
+  height: 103px;
+  width: 294px;
+}
 
