@@ -1,6 +1,6 @@
 body {
 	min-width: 1200px;
-  min-height: 2416px;
+  min-height: auto;
 	font-family: 'Roboto', sans-serif;
 	color: white;	
   margin: 0;
@@ -9,7 +9,7 @@ body {
 
 body {
 	background: #0a1e9c url("./img/gllacy-index-1200.jpg");
-  background-size: 1200px 2416px;
+  background-size: 1200px auto;
 }
 
 .main-header {
@@ -85,16 +85,19 @@ body {
 }
 
 .Selection-menu2 {  
-  padding-top: 42px;
+  padding-top: 40px;  
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   border: 3px solid white;
-  height: 323px;   
+  height: auto;   
 }
 
 .features-item {
    border: 3px solid green;
-  width: 267px;
+   width: 267px;
+   height: 267px;
+   margin-bottom: 96px;
 }
 
 .short-description {
@@ -162,3 +165,17 @@ body {
   width: 294px;
 }
 
+.main-layout::before {
+  display: none;
+}
+
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid white;
+  /*height: 246px;*/
+}
+
+.breadcrumbs {
+  border: 3px solid green;
+}
