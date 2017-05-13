@@ -313,7 +313,7 @@ body > input[type="radio"] {
     
   min-height: 225px;
   margin-top: 10px;
-  justify-content: space-between;  
+  justify-content: center;  
 }
 
 .advertising-campaign {  
@@ -507,7 +507,7 @@ body > input[type="radio"] {
   
   margin-top: 42px;   
   display: flex;
-  justify-content: space-between;   
+  justify-content: center;   
 }
 
 .short-description1 {
@@ -797,7 +797,7 @@ body > input[type="radio"] {
 }
 
 .footer-information li {  
-  display: inline;
+  display: inline-block;
   margin-right: 10px;
 
 }
